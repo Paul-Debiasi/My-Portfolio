@@ -1,32 +1,29 @@
 import React from 'react'
-import "./Footer.css
+import {FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa"
+
+import "./Footer.css"
+
 const Footer = () => {
     return (
-        <footer className="Footer">
+        <footer className="footer">
+          <div className="footer-contact">
+            <h3>CONTACT</h3>
+             <div className="sns-links">
+               <a  className="foot-email" href="mailto:debiasi.paul@gmail.com" target="_blank" rel="noreferrer" >
+                 <FaEnvelope/>
+               </a>
+               <a className="foot-linkedin" href="https://www.linkedin.com/in/paul-debiasi/" target="_blank" rel="noreferrer">
+                 <FaLinkedin />
+               </a>
+               <a   className="foot-github"href="https://github.com/Paul-Debiasi" target="_blank" rel="noreferrer">                     
+                 <FaGithub/>
+               </a>
+              </div>
+            </div>
             <div className="footer-info">
-                <h1>Paul Debiasi</h1>
-                <p>Berlin - Germany</p>
-            </div>
-            <div className="footer-contact">
-                <h3>Contact me</h3>
-            </div>
-            <div className="footer-sns">
-                <div className="design-by">
-                    Design by Paul Debiasi
-                </div>
-                <div className="sns-links">
-                    <a href="https://www.facebook.com/paul.debiasi" target="_blank" rel="noreferrer" >
-                        <i className="fab fa-facebook facebook"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/paul-debiasi/" target="_blank" rel="noreferrer">
-                        <i className="fab fa-linkedin linkedin"></i>
-                    </a>
-                    <a href="https://github.com/Paul-Debiasi" target="_blank" rel="noreferrer">
-                        <i className="fab fa-github github"></i>
-                    </a>
-                </div>
-            </div>
-            
+            <h1>Paul Debiasi</h1>   
+            <p>Web Developer | Content Creator</p>
+          </div>
         </footer>
     )
 }
