@@ -5,9 +5,9 @@ import "./Footer.css"
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer id="contact" className="footer">
           <div className="footer-contact">
-            <h3>CONTACT</h3>
+            <h3 >CONTACT</h3>
              <div className="sns-links">
                <a  className="foot-email" href="mailto:debiasi.paul@gmail.com" target="_blank" rel="noreferrer" >
                  <FaEnvelope/>
@@ -21,8 +21,8 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer-info">
-            <h1>Paul Debiasi</h1>   
-            <p>Web Developer | Content Creator</p>
+            <div><a href="mailto:debiasi.paul@gmail.com">debiasi.paul@gmail.com</a></div>   
+            <span>Web Developer | Content Creator</span>
           </div>
         </footer>
     )

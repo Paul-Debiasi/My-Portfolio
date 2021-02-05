@@ -4,14 +4,14 @@ import myPic from "../../media/myPic.jpeg"
 
 const About = () => {
     return (
-        <div className='about-container'>
+        <div id="about" className='about-container'>
             <div className='about-desc'>
                 <div className="about-img">
                   <img className="about-pic"  src={myPic} alt="Paul's" />
                  </div>
                 <div className='about-content'>                
-                <h3> A few lines about me !</h3>
-                <p>I am a junior software engineer, passionate about clean code, user-centered products, &
+                <h3 > A few lines about me !</h3>
+                <p>I am a junior software developer, passionate about clean code, user-centered products, &
                 solving problems. While actively sharpening my skills, I am currently looking for my next
                 challenging role where I can learn and progress on professional and personal levels <br></br>
                 <br></br>
