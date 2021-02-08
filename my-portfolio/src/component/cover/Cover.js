@@ -9,8 +9,10 @@ const Cover = () => {
             <video className="video" autoPlay loop muted >
                 <source src={video} type="video/mp4"/>
             </video>
+            <div className='my-name'>
             <h1 style={{color: 'white'}}>Paul Debiasi</h1>
-            <p style={{color: 'white'}}>Software Developer | Content Creator</p>
+            <span style={{color: 'white'}}>Software Developer | Content Creator</span>
+            </div>
             <div className="stack-container">
             <div className="tech">TECH STACK</div>
             <ul className="stack-icons">
