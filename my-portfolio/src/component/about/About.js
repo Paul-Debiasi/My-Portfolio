@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import myPic from "../../media/myPic.jpeg"
+import Resume from "../resume/Resume"
 
 const About = () => {
     return (
@@ -8,7 +9,9 @@ const About = () => {
             <div className='about-desc'>
                 <div className="about-img">
                   <img className="about-pic"  src={myPic} alt="Paul's" />
+                  <Resume/>
                  </div>
+                 
                 <div className='about-content'>                
                 <h3 > A few lines about me !</h3>
                 <p>I am a junior software developer, passionate about clean code, user-centered products, &
