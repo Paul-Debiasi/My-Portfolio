@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": "http://pd-portfolio.com/my-portfolio/",
+  "homepage": "https://paul-debiasi.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "engines": {
